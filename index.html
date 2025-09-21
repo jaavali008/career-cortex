@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CareerCortex - Powered by Aura</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <!-- Header -->
+  <header class="nav">
+    <div class="container">
+      <img src="logo.png.jpg" alt="CareerCortex Logo" class="logo-img">
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#demo">Demo</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Your AI Career Co-Pilot</h2>
+      <p><strong>Aura</strong>, the AI advisor that maps your skills, suggests career paths, and prepares you for the future job market.</p>
+      <a href="#demo" class="btn">Try Demo</a>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="section container">
+    <h3>What Aura Can Do</h3>
+    <div class="grid">
+      <div class="card">
+        <h4>Skill Mapping</h4>
+        <p>Aura scans resumes/LinkedIn to build your personalized skill profile.</p>
+      </div>
+      <div class="card">
+        <h4>Career Path Suggestions</h4>
+        <p>Smart recommendations tailored to your strengths and interests.</p>
+      </div>
+      <div class="card">
+        <h4>Preparation Tools</h4>
+        <p>Get curated courses, projects, and interview prep guidance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Demo Section -->
+  <section id="demo" class="section container">
+    <h3>See Aura in Action</h3>
+    <form id="demoForm">
+      <input type="text" id="name" placeholder="Enter your name" required />
+      <textarea id="skills" placeholder="List a few skills (e.g., Python, Design, Marketing)"></textarea>
+      <button type="submit" class="btn">Ask Aura</button>
+    </form>
+    <div id="demoOutput"></div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section container">
+    <h3>Contact Us</h3>
+    <p>Email: info@careercortex.com</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">© <span id="year"></span> CareerCortex | Powered by Aura</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
